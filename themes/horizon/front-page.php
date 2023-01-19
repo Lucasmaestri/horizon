@@ -302,31 +302,48 @@
     </section>
 
     <section class="testimonials position-relative">
-        <img src="wp-content/themes/horizon/assets/images/bg-testimonials.webp" alt="" class="testimonials__bg position-absolute">
-        <div class="testimonials__effect custom-shape-divider-bottom-1674160652 position-absolute">
+        <img src="wp-content/themes/horizon/assets/images/bg-testimonials.webp" alt="" class="testimonials__bg">
+        <div class="testimonials__effect custom-shape-divider-bottom-1674160652">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
             </svg>
         </div>
         <div class="container">
-            <div class="testimonials__title p-5">
+            <div class="testimonials__title">
                 <p class="caption-headline text-center">depoimentos</p>
                 <h3 class=" main-title text-center">O QUE NOSSOS CLIENTES ESTÃO FALANDO</h3>
             </div>
-            <div class="testimonials__card position-relative">
-                <img src="wp-content/themes/horizon/assets/images/icon-testimonials.png" alt="" class="testimonials__card__icon position-absolute">
-                <div class="testimonials__card__profile d-flex align-items-center">
-                    <img src="wp-content/themes/horizon/assets/images/perfil.png" alt="" class="testimonials__card__photo m-2">
-                    <div class="testimonials__card__info">
-                        <h4 class="testimonials__card__name">Mark Rise</h4>
-                        <p class="testimonials__card__work">Diretor</p>
+            <div class="testimonials__item d-flex">
+                <div class="testimonials__card position-relative">
+                    <img src="wp-content/themes/horizon/assets/images/icon-testimonials.png" alt="" class="testimonials__card__icon position-absolute">
+                    <div class="testimonials__card__profile d-flex align-items-center">
+                        <img src="wp-content/themes/horizon/assets/images/perfil.png" alt="" class="testimonials__card__photo m-2">
+                        <div class="testimonials__card__info">
+                            <h4 class="testimonials__card__name">Mark Rise</h4>
+                            <p class="testimonials__card__work">Diretor</p>
+                        </div>
                     </div>
+                    <p class="testimonials__card__description text-center">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem 
+                    </p>
+                    <img src="wp-content/themes/horizon/assets/images/icon-testimonials.png" alt="" class="testimonials__card__icon testimonials__card__icon--variable position-absolute">
                 </div>
-                <p class="testimonials__card__description text-center">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum    
-                </p>
-                <img src="wp-content/themes/horizon/assets/images/icon-testimonials.png" alt="" class="testimonials__card__icon testimonials__card__icon--variable position-absolute">
+                <div class="testimonials__card position-relative">
+                    <img src="wp-content/themes/horizon/assets/images/icon-testimonials.png" alt="" class="testimonials__card__icon position-absolute">
+                    <div class="testimonials__card__profile d-flex align-items-center">
+                        <img src="wp-content/themes/horizon/assets/images/perfil.png" alt="" class="testimonials__card__photo m-2">
+                        <div class="testimonials__card__info">
+                            <h4 class="testimonials__card__name">Mark Rise</h4>
+                            <p class="testimonials__card__work">Diretor</p>
+                        </div>
+                    </div>
+                    <p class="testimonials__card__description text-center">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem 
+                    </p>
+                    <img src="wp-content/themes/horizon/assets/images/icon-testimonials.png" alt="" class="testimonials__card__icon testimonials__card__icon--variable position-absolute">
+                </div>
             </div>
         </div>
     </section>

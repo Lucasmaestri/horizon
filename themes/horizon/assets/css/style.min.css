@@ -45,16 +45,17 @@ a{text-decoration:none}
 .services__card__title{color:#fff;font-size:22px}
 .services__card__description{color:#fff;font-size:14px;padding:10px 20px}
 .services__card__cta{margin:20px 0}
-.testimonials__bg{width:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center;z-index:-1}
-.testimonials__effect{z-index:0;height:100%}
+.testimonials__bg{width:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center;position:absolute;top:0;bottom:0;z-index:-1}
+.testimonials__effect{top:150px;height:100%}
 .testimonials .custom-shape-divider-bottom-1674160652{position:absolute;bottom:0;left:0;width:100%;overflow:hidden;line-height:0;-webkit-transform:rotate(180deg);transform:rotate(180deg)}
 .testimonials .custom-shape-divider-bottom-1674160652 svg{display:block;width:calc(100% + 1.3px);height:422px;-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}
 .testimonials .custom-shape-divider-bottom-1674160652 .shape-fill{fill:#0037ca}
-.testimonials__card{background:red;width:500px;height:auto;border-radius:8px;-webkit-box-shadow:0 10px 20px rgba(0,0,0,0.25);box-shadow:0 10px 20px rgba(0,0,0,0.25)}
-.testimonials__card__icon{top:20px;left:20px}
-.testimonials__card__icon--variable{-webkit-transform:rotate(180deg);transform:rotate(180deg);bottom:20px;right:20px}
+.testimonials__title{padding:50px 0 25px 0}
+.testimonials__card{background:#fff;width:500px;height:auto;margin:20px 10px;border-radius:8px;-webkit-box-shadow:0 10px 20px rgba(0,0,0,0.25);box-shadow:0 10px 20px rgba(0,0,0,0.25)}
+.testimonials__card__icon{left:20px;top:20px}
+.testimonials__card__icon--variable{-webkit-transform:rotate(180deg);transform:rotate(180deg);left:calc(100% - 80px);top:calc(100% - 60px);bottom:20px;right:20px}
 .testimonials__card__profile{padding:20px 0 0 100px}
-.testimonials__card__description{padding:20px}
+.testimonials__card__description{padding:20px 30px 50px 30px}
 .button-border{border:2px solid #0037ca;border-radius:30px;padding:8px 40px;font-weight:bold;color:#404040}
 .button-white{background:#fff;border-radius:30px;padding:8px 40px;font-weight:bold;color:#0037ca}
 .button-blue{background:#0037ca;border-radius:30px;padding:8px 40px;font-weight:bold;color:#fff}
