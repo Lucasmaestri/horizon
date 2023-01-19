@@ -1,0 +1,21 @@
+// Fonte
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+// Bootstrap
+@import '../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css';
+@import '../../node_modules/bootstrap/dist/css/bootstrap-utilities.min.css';
+
+//Reset
+@import 'base/reset.scss';
+
+// Layout do cabeçalho
+@import 'layout/header.scss';
+
+// Variação de cores
+@import 'utilities/variables.scss';
+
+// Pagina home
+@import 'pages/front-page.scss';
+
+// Estilos de botoes
+@import 'utilities/button.scss';

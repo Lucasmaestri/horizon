@@ -1,0 +1,65 @@
+.header {
+
+// ---------- MENU PEQUENO ---------------
+
+    &__small {
+        background: #0037CA;
+        padding: 10px 0;
+
+        &__phone {
+            color: #fff;
+            font-size: 18px;
+            margin-right: 45px;
+        }
+        &__social {
+            
+            &__icon {
+                border: 2px solid #fff;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+
+                &:hover {
+                    background: #fff;
+                    path {
+                        fill: #0037CA;
+                    }
+                }
+            }
+        }
+    }
+
+// ---------- MENU PRINCIPAL ---------------
+
+    &__menu {
+        height: 100px;
+        background: #000;
+
+        &__link {
+            color: #fff;
+            font-family: 18px;
+            font-weight: 700;
+            padding: 15px;
+            border-bottom: 2px solid transparent;
+            transition: all .3s;
+
+            &:hover {
+                color: #0037CA;
+                border-bottom: 2px solid #0037CA;
+            }
+            
+            &--cta {
+                text-align: center;
+                background: #0037CA;
+                margin-left: 15px;
+                padding: 12px 30px;
+                border-radius: 50px;
+
+                &:hover {
+                    background: #fff;
+                    border-bottom: 2px solid transparent;
+                }
+            }
+        }
+    }
+}
